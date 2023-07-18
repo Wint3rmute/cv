@@ -84,17 +84,16 @@
 
     == Education
 
-    === Higher
 
-    //_Wrocław University of Science and Technology_  #h(1fr) #icon("location") [Wrocław, PL]
+    === Wrocław University of Science and Technology
 
     #term[Sep 2022 --- 2023][Wrocław, PL]
 
     M.Sc. Computer Science. Thesis title: DSP graph generation
     algorithm for solving the sound synthesis problem.
 
+    === Wrocław University of Science and Technology
 
-    _Wrocław University of Science and Technology_\
     #term[Sep 2017 --- 2021][Wrocław, PL]
 
     B.Sc. Computer Science. Thesis title: Autonomous drone-based scouting
