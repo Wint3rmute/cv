@@ -1,4 +1,4 @@
-#import "alta-typst.typ": alta, term, skill, better_skill
+#import "alta-typst.typ": alta, term, skill, better_skill, personal_project
 
 #alta(
   name: "Mateusz Bączek",
@@ -17,6 +17,7 @@
     especially generative art and music.
   ],
   [
+    #show link: underline
     == Experience
 
     === Mission operations software development lead
@@ -142,7 +143,7 @@
 
     == Personal Projects
 
-    === Running a personal website and a personal cloud
+    #personal_project[Running a personal website and a personal cloud][https://baczek.me]
 
     I'm using a VPS server to run a personal website and a number of both
     personal and public cloud services. Everything is monitored via the Grafana
@@ -156,7 +157,7 @@
     #better_skill("Ansible")
     #better_skill("Wireguard")
 
-    === Collaborative sampler
+    #personal_project[Collaborative sampler][https://github.com/Wint3rmute/libretakt]
 
     Written in a team of 4, the sampler is meant to reproduce the Digitakt-style workflow in a distributed environment.
     Each user has their own DSP engine running to assure minimal latency, but the changes each user makes in the sequencer state
@@ -166,5 +167,19 @@
     #better_skill("WebSockets")
     #better_skill("DSP")
     #better_skill("Audio Effects")
+    #better_skill("FFMPEG")
+    #better_skill("Media streaming")
+
+
+    #personal_project[Linux configuration repository][https://github.com/Wint3rmute/dotfiles]
+    
+    I keep my dotfiles documented and version controlled, with an Ansible-based
+    deployment procedure which allows me to sync my configuration across
+    multiple machines and bootstrap a new computer easily and quickly.
+
+    #better_skill("Linux")
+    #better_skill("Ansible")
+    #better_skill("Git")
+
   ],
 )

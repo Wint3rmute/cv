@@ -27,6 +27,12 @@
   ]
 }
 
+#let personal_project(name, link) = {
+  [
+    === #name #h(1fr) #text(9pt)[#link]
+  ]
+}
+
 #let term(period, location) = {
   text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
 }
