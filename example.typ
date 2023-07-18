@@ -1,4 +1,4 @@
-#import "alta-typst.typ": alta, term, skill
+#import "alta-typst.typ": alta, term, skill, better_skill
 
 #alta(
   name: "Mateusz Bączek",
@@ -24,27 +24,68 @@
     _SatRev_\
     #term[2021 --- Present][Wrocław, PL]
 
-    Developing and maintaining Satrev's in-house mission-operations software,
-    used to manage the entire fleet of company's satellites. Leading a team of
+    Developed and maintained Satrev's in-house mission-operations software,
+    used to operate the entire fleet of company's satellites. Leading a team of
     3-5 programmers.
 
     - Management & monitoring of software infrastructure
-    - Python/Rust/Linux/Docker/PostgreSQL
     - Real-time communication protocols
     - Message queues
     - Metrics visualisation
+
+    #better_skill("Python")
+    #better_skill("Rust")
+    #better_skill("Linux")
+    #better_skill("PostgreSQL")
+    #better_skill("Apache Kafka")
+    #better_skill("Ansible")
+    #better_skill("Azure")
+    #better_skill("Grafana")
+    #better_skill("Prometheus")
 
     === Software Developer
 
     _SatRev_\
     #term[2020 --- 2021][Wrocław, PL]
+    
+    Developed the telemetry software and automation/testing
+    tools used during the testing and integration processes
+    of the STORK satellites. Worked on the software
+    for the on-board computer for the STORK platform.
 
-    I’ve started working at SatRev when the company was at it’s early stage,
-    hence I was responsible for a multitude of processes:
-
-    - CubeSat's on-board computer software
     - Telemetry and ground station software
     - Radio communication protocols
+    - Automatic testing tools
+
+    #better_skill("Python")
+    #better_skill("PyTest")
+    #better_skill("Embedded Linux")
+    #better_skill("Buildroot")
+    #better_skill("Docker")
+    #better_skill("MQTT")
+    #better_skill("CI/CD")
+    #better_skill("Git")
+
+    === Sofware Developer
+
+    _BZB UAS_\
+    #term[2020][Wrocław, PL]
+    
+    Worked on an integrated telemetry collection & sharing service for a
+    semi-autonomous UAV dedicated to conducting photogrammetry scans.
+
+    - Telemetry and ground station software
+    - Radio communication protocols
+    - Automatic testing tools
+
+    #better_skill("Python")
+    #better_skill("ArduPilot")
+    #better_skill("MavLink")
+    #better_skill("Embedded Linux")
+    #better_skill("OpenWRT")
+
+    ],
+    [
 
     == Education
 
@@ -62,12 +103,10 @@
 
     B.Sc. Computer Science. Thesis title: Autonomous drone-based scouting
     system.
-  ],
-  [
     == Student activity
 
-    === Academic Aviation Club
-    #term[Sep 2019 --- 2023][Wrocław, PL]
+    //=== Academic Aviation Club
+    //#term[Sep 2019 --- 2023][Wrocław, PL]
 
     At the university I participated in a student research circle, the Academic
     Aviation Club (Original Polish name: _Akademicki Klub Lotniczy_),
@@ -75,7 +114,7 @@
     participated in the following competitions:
 
 
-    ==== SAE Aero Design\
+    === SAE Aero Design\
     #term[2020][Florida, USA]
 
     Second place in general
@@ -84,7 +123,7 @@
     from a flying plane and built the telemetry software required to operate
     the system.
 
-    ==== Droniada\
+    === Droniada\
     #term[2021][Kąkolewo, PL]
 
     Designed a visual marker detection system, based on machine learning
@@ -94,7 +133,7 @@
     The team won the second place.
 
 
-    ==== IAV -- Intelligent Autonomous Vehicles\
+    === IAV -- Intelligent Autonomous Vehicles\
     #term[2019][Gdańsk, PL]
 
     Designed a system for determining the position of Bluetooth LE beacons,
@@ -105,33 +144,27 @@
     - *English* -- fluent
     - *Polish* -- native
 
-    == Projects
+    == Personal Projects
 
-    ==== Running a personal website and a personal cloud
+    === Running a personal website and a personal cloud
 
     I'm using a VPS server to run a personal website and a number of personal
     cloud services. Everything is monitored via the Grafana stack.
 
-    - Docker
-    - Prometheus
-    - Grafana
-    - Ansible
+    //- Docker
+    //- Prometheus
+    //- Grafana
+    //- Ansible
 
-    ==== Collaborative sampler
+    === Collaborative sampler
 
     Written in a team of 4, the sampler is meant to reproduce the Digitakt-style workflow in a distributed environment.
     Each user has their own DSP engine running to assure minimal latency, but the changes each user makes in the sequencer state
     are synchronised in real time across a virtual ,,jam session''.
 
-    - Rust, on both backend and UI
-    - WebSockets
-    - Audio filters & effects
-
-    ==== Employee Appraisal System
-
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(20)
+    //- Rust, on both backend and UI
+    //- WebSockets
+    //- Audio filters & effects
 
     //== Skills
 

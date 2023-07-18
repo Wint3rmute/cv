@@ -31,6 +31,20 @@
   text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
 }
 
+#let better_skill(name) = {
+  box(
+    fill: primary_colour,
+    inset: 4pt,
+    radius: 2pt,
+    [
+      #text(white)[
+        #name
+      ]
+    ]
+
+  )
+}
+
 #let max_rating = 5
 #let skill(name, rating) = {
   let done = false
