@@ -29,7 +29,7 @@
 
 #let personal_project(name, link) = {
   [
-    === #name #h(1fr) #text(9pt)[#link]
+    === #name #h(1fr) #text(9pt)[#icon("website") #link]
   ]
 }
 

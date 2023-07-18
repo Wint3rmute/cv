@@ -100,7 +100,7 @@
     B.Sc. Computer Science. Thesis title: Autonomous drone-based scouting
     system.
 
-    == Student activity
+    == Activity at university
 
     //=== Academic Aviation Club
     //#term[Sep 2019 --- 2023][Wrocław, PL]
