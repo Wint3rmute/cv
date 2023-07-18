@@ -32,16 +32,15 @@
 }
 
 #let better_skill(name) = {
+
   box(
     fill: primary_colour,
     inset: 4pt,
     radius: 2pt,
-    [
-      #text(white)[
-        #name
-      ]
-    ]
-
+    text(
+      fill: white,
+      raw(name)
+    )
   )
 }
 
@@ -84,8 +83,7 @@
   name: "",
   links: (),
   tagline: [],
-  left,
-  right,
+  content,
 ) = {
   set text(9.8pt, font: "IBM Plex Sans")
   set page(
@@ -116,10 +114,16 @@
 
   tagline
 
-  grid(
-    columns: (0.49fr, 0.49fr),
-    gutter: 15pt,
-    left,
-    right,
-  )
+  linebreak(justify: false)
+
+  columns(1, gutter: 15pt)[
+    #content
+  ]
+
+  //grid(
+  //  columns: (0.49fr, 0.49fr),
+  //  gutter: 15pt,
+  //  left,
+  //  right,
+  //)
 }

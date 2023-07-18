@@ -65,6 +65,7 @@
     #better_skill("MQTT")
     #better_skill("CI/CD")
     #better_skill("Git")
+    #better_skill("InfluxDB")
 
     === Sofware Developer
 
@@ -74,27 +75,21 @@
     Worked on an integrated telemetry collection & sharing service for a
     semi-autonomous UAV dedicated to conducting photogrammetry scans.
 
-    - Telemetry and ground station software
-    - Radio communication protocols
-    - Automatic testing tools
-
     #better_skill("Python")
     #better_skill("ArduPilot")
     #better_skill("MavLink")
     #better_skill("Embedded Linux")
     #better_skill("OpenWRT")
 
-    ],
-    [
-
     == Education
 
     === Higher
 
-    _Wrocław University of Science and Technology_\
+    //_Wrocław University of Science and Technology_  #h(1fr) #icon("location") [Wrocław, PL]
+
     #term[Sep 2022 --- 2023][Wrocław, PL]
 
-    M.Sc. Computer Science. Thesis title:  Design of a DSP graph generation
+    M.Sc. Computer Science. Thesis title: DSP graph generation
     algorithm for solving the sound synthesis problem.
 
 
@@ -103,6 +98,7 @@
 
     B.Sc. Computer Science. Thesis title: Autonomous drone-based scouting
     system.
+
     == Student activity
 
     //=== Academic Aviation Club
@@ -111,7 +107,7 @@
     At the university I participated in a student research circle, the Academic
     Aviation Club (Original Polish name: _Akademicki Klub Lotniczy_),
     dedicated to developing unmanned aerial vehicles. As a member, I’ve
-    participated in the following competitions:
+    participated in a number of competitions, both as a programmer and as a team leader.
 
 
     === SAE Aero Design\
@@ -148,13 +144,17 @@
 
     === Running a personal website and a personal cloud
 
-    I'm using a VPS server to run a personal website and a number of personal
-    cloud services. Everything is monitored via the Grafana stack.
+    I'm using a VPS server to run a personal website and a number of both
+    personal and public cloud services. Everything is monitored via the Grafana
+    stack.
 
-    //- Docker
-    //- Prometheus
-    //- Grafana
-    //- Ansible
+    #better_skill("System Administration")
+    #better_skill("Docker")
+    #better_skill("Prometheus")
+    #better_skill("Grafana")
+    #better_skill("Caddy")
+    #better_skill("Ansible")
+    #better_skill("Wireguard")
 
     === Collaborative sampler
 
@@ -162,15 +162,9 @@
     Each user has their own DSP engine running to assure minimal latency, but the changes each user makes in the sequencer state
     are synchronised in real time across a virtual ,,jam session''.
 
-    //- Rust, on both backend and UI
-    //- WebSockets
-    //- Audio filters & effects
-
-    //== Skills
-
-    //#skill("Go", 5)
-    //#skill("TypeScript", 3)
-    //#skill("Git", 1)
-    //#skill("Typst", 1)
+    #better_skill("Rust")
+    #better_skill("WebSockets")
+    #better_skill("DSP")
+    #better_skill("Audio Effects")
   ],
 )
