@@ -1,4 +1,4 @@
-#import "alta-typst.typ": alta, term, skill, better_skill, personal_project
+#import "alta-typst.typ": alta, term, skill, better_skill, personal_project, position
 
 #alta(
   name: "Mateusz Bączek",
@@ -20,7 +20,7 @@
     #show link: underline
     == Experience
 
-    === Mission operations software development lead
+    #position[Mission operations software development lead][Wrocław, PL]
 
     _SatRev_\
     #term[2021 --- Present][Wrocław, PL]
@@ -44,7 +44,7 @@
     #better_skill("Grafana")
     #better_skill("Prometheus")
 
-    === Software Developer
+    #position[Software Developer][Wrocław, PL]
 
     _SatRev_\
     #term[2020 --- 2021][Wrocław, PL]
@@ -68,7 +68,7 @@
     #better_skill("Git")
     #better_skill("InfluxDB")
 
-    === Sofware Developer
+    #position[Software Developer][Wrocław, PL]
 
     _BZB UAS_\
     #term[2020][Wrocław, PL]
@@ -85,7 +85,7 @@
     == Education
 
 
-    === Wrocław University of Science and Technology
+    Wrocław University of Science and Technology
 
     #term[Sep 2022 --- 2023][Wrocław, PL]
 
@@ -110,7 +110,7 @@
     participated in a number of competitions, both as a programmer and as a team leader.
 
 
-    === SAE Aero Design\
+    #position[SAE Aero Design][Florida, USA]
     #term[2020][Florida, USA]
 
     Second place in general
@@ -119,7 +119,7 @@
     from a flying plane and built the telemetry software required to operate
     the system.
 
-    === Droniada\
+    #position[Droniada][Kąkolewo, PL]
     #term[2021][Kąkolewo, PL]
 
     Designed a visual marker detection system, based on machine learning
@@ -129,11 +129,20 @@
     The team won the second place.
 
 
-    === IAV -- Intelligent Autonomous Vehicles\
+    #position[IAV -- Intelligent Autonomouse Vehicles][Gdańsk, PL]
     #term[2019][Gdańsk, PL]
 
     Designed a system for determining the position of Bluetooth LE beacons,
     using an autonomous drone. The team won the first place.
+
+
+    #position[Nokia Innovative Projects][Wrocław, PL]
+    #term[2018][Wrocław, PL]
+
+    Developed a prototype of a Pokemon-Go-alike game. The game world was
+    generated procedurally, based on Open-StreetMaps. Within the game world,
+    players could gather resources and build structures, that would be visible
+    to other players visiting the same area.
 
     == Languages
 

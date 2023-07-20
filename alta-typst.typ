@@ -34,7 +34,15 @@
 }
 
 #let term(period, location) = {
-  text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
+  text(9pt)[#icon("calendar") #period]
+}
+
+#let position(name, location) = {
+  [
+    #v(4pt)
+
+    === #name #h(1fr) #text(9pt)[#icon("location") #location]
+  ]
 }
 
 #let better_skill(name) = {
