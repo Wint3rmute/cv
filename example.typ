@@ -25,14 +25,14 @@
     _SatRev_\
     #term[2021 --- Present][Wrocław, PL]
 
-    Developed and maintained Satrev's in-house mission-operations software,
-    used to operate the entire fleet of company's satellites. Leading a team of
+    Developed and maintained Satrev's in-house mission-operations software
+    used for operating the entire fleet of company's satellites. Leading a team of
     3-5 programmers.
 
     - Management & monitoring of software infrastructure
     - Real-time communication protocols
     - Message queues
-    - Metrics visualisation
+    - Metrics visualization
 
     #better_skill("Python")
     #better_skill("Rust")
@@ -85,7 +85,7 @@
     == Education
 
 
-    Wrocław University of Science and Technology
+    === Wrocław University of Science and Technology
 
     #term[Sep 2022 --- 2023][Wrocław, PL]
 
@@ -99,6 +99,8 @@
     B.Sc. Computer Science. Thesis title: Autonomous drone-based scouting
     system.
 
+    #v(48pt)
+
     == Activity at university
 
     //=== Academic Aviation Club
@@ -106,7 +108,7 @@
 
     At the university I participated in a student research circle, the Academic
     Aviation Club (Original Polish name: _Akademicki Klub Lotniczy_),
-    dedicated to developing unmanned aerial vehicles. As a member, I’ve
+    dedicated to developing unmanned aerial vehicles. As a member, I
     participated in a number of competitions, both as a programmer and as a team leader.
 
 
@@ -129,7 +131,7 @@
     The team won the second place.
 
 
-    #position[IAV -- Intelligent Autonomouse Vehicles][Gdańsk, PL]
+    #position[IAV -- Intelligent Autonomous Vehicles][Gdańsk, PL]
     #term[2019][Gdańsk, PL]
 
     Designed a system for determining the position of Bluetooth LE beacons,
@@ -140,8 +142,8 @@
     #term[2018][Wrocław, PL]
 
     Developed a prototype of a Pokemon-Go-alike game. The game world was
-    generated procedurally, based on Open-StreetMaps. Within the game world,
-    players could gather resources and build structures, that would be visible
+    generated procedurally, based on Open-StreetMaps. Players could gather
+    resources and build structures Within the game world, that would be visible
     to other players visiting the same area.
 
     == Languages
@@ -169,7 +171,7 @@
 
     Written in a team of 4, the sampler is meant to reproduce the Digitakt-style workflow in a distributed environment.
     Each user has their own DSP engine running to assure minimal latency, but the changes each user makes in the sequencer state
-    are synchronised in real time across a virtual ,,jam session''.
+    are synchronized in real time across a virtual ,,jam session''.
 
     #better_skill("Rust")
     #better_skill("WebSockets")
@@ -178,8 +180,7 @@
     #better_skill("FFMPEG")
     #better_skill("Media streaming")
 
-
-    #personal_project[Linux configuration repository][https://github.com/Wint3rmute/dotfiles]
+    #personal_project[Personal Linux configuration][https://github.com/Wint3rmute/dotfiles]
     
     I keep my dotfiles documented and version controlled, with an Ansible-based
     deployment procedure which allows me to sync my configuration across
@@ -189,5 +190,11 @@
     #better_skill("Ansible")
     #better_skill("Git")
 
+    #v(7pt)
+    #set align(right)
+    #emph(text(size: 8pt)[
+      I hereby give consent for my personal data included in my application to
+      be processed for the purposes of the recruitment process.
+    ])
   ],
 )
