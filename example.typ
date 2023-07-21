@@ -25,13 +25,13 @@
     _SatRev_\
     #term[2021 --- Present][Wrocław, PL]
 
-    Developed and maintained Satrev's in-house mission-operations software
+    Developed and maintained SatRev's in-house mission-operations software
     used for operating the entire fleet of company's satellites. Leading a team of
     3-5 programmers.
 
     - Management & monitoring of software infrastructure
     - Real-time communication protocols
-    - Message queues
+    - Databases & message queues
     - Metrics visualization
 
     #better_skill("Python")
@@ -106,20 +106,20 @@
     //=== Academic Aviation Club
     //#term[Sep 2019 --- 2023][Wrocław, PL]
 
-    At the university I participated in a student research circle, the Academic
-    Aviation Club (Original Polish name: _Akademicki Klub Lotniczy_),
-    dedicated to developing unmanned aerial vehicles. As a member, I
-    participated in a number of competitions, both as a programmer and as a team leader.
+    I participated in a student research circle, the Academic Aviation Club
+    (Original Polish name: _Akademicki Klub Lotniczy_), dedicated to developing
+    unmanned aerial vehicles. During the period of 2020 to 2021, I held the
+    position of club's Vice-President. I took part in a number of competitions,
+    both as a programmer and as a team leader.
 
 
     #position[SAE Aero Design][Florida, USA]
     #term[2020][Florida, USA]
 
-    Second place in general
-    classification, second place in the Advance category. Developed a
-    mathematical model predicting an optimal position for dropping a payload
-    from a flying plane and built the telemetry software required to operate
-    the system.
+    Developed a mathematical model predicting an optimal position for dropping
+    a payload from a flying plane and built the telemetry software required to
+    operate the system. The team took second place in general classification,
+    second place in the Advance category.
 
     #position[Droniada][Kąkolewo, PL]
     #term[2021][Kąkolewo, PL]
