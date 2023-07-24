@@ -7,6 +7,7 @@
     (name: "github", link: "https://github.com/wint3rmute", display: "@wint3rmute"),
     (name: "linkedin", link: "https://linkedin.com/in/example", display: "Mateusz Bączek"),
     (name: "website", link: "https://baczek.me/", display: "baczek.me"),
+    (name: "phone", link: "+48 796 070 377", display: "+48 796 070 377"),
   ),
   tagline: [
     Software engineer with 3+ years of experience,
