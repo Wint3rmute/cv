@@ -99,7 +99,7 @@
   tagline: [],
   content,
 ) = {
-  set text(9.8pt, font: "IBM Plex Sans")
+  set text(9.8pt)
   set page(
     margin: (x: 54pt, y: 48pt),
   )

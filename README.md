@@ -16,11 +16,6 @@ Upload the `.typ` and `.svg` files to your Typst project, then see `cv.typ`.
 
 Fork and clone this repo, then run `typst watch cv.typ`.
 
-Note that the template is intended for use with the IBM Plex Sans font, which
-isn't currently bundled with the Typst CLI — so the rendered output on your
-machine may differ slightly. You can run `typst fonts` to see which fonts can
-be used instead.
-
 ### Icons
 
 Add extra icons by uploading more `.svg` files — the existing ones are free
